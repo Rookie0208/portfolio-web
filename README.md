@@ -4,7 +4,7 @@
 
 A single page portfolio website.
 
-## Amoug-Us Community
+## By Amoug-Us Community
 ### Amit Singh Rawat
 ### Piyush Sokhi
 ### Shariq Khan

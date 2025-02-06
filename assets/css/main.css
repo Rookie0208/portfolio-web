@@ -544,7 +544,7 @@ body {
 .side-nav > li {
   position: relative;
   top: -5px;
-  color: #161616;
+  color: #9c74ff;
   font-size: 6px;
   cursor: pointer;
 }
@@ -552,7 +552,7 @@ body {
   position: relative;
   top: 3px;
   left: 10px;
-  color: #161616;
+  color: #9c74ff;
   font-size: 14px;
   font-weight: 300;
   opacity: 0;
@@ -594,7 +594,7 @@ body {
 }
 .side-nav li.is-active::before {
   left: -33px;
-  color: #161616;
+  color: #9c74ff;
 }
 .intro {
   position: relative;

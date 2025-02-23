@@ -1092,13 +1092,13 @@ body {
   background-repeat: no-repeat;
 }
 .about--options > a:nth-child(1) {
-  background-image: url("../img/about-winners.jpg");
+  background-image: url("../img/harold.png");
 }
 .about--options > a:nth-child(2) {
-  background-image: url("../img/about-philosophy.jpg");
+  background-image: url("../img/Zara.png");
 }
 .about--options > a:nth-child(3) {
-  background-image: url("../img/about-history.jpg");
+  background-image: url("../img/Thrift.png");
 }
 .about--options > a:hover h3 {
   bottom: -50px;
@@ -1223,7 +1223,7 @@ body {
   display: block;
   margin: 14px 0;
   text-decoration: none;
-  color: #161616;
+  color: white;
   font-weight: 700;
 }
 .contact--lockup .modal--information p {

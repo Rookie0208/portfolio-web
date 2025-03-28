@@ -233,12 +233,11 @@ a {
     margin-bottom: 50px;
     background: #edf0f2;
     background: #b89ff8;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    border-radius: 50%;
     margin: 0 auto 30px auto; }
-    .site-service-item .icon span {
+    .site-service-item .icon img {
       font-size: 40px;
       color: #080b0e;
       position: absolute;
@@ -464,6 +463,20 @@ a {
   transition: .5s ease;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
+
+  .block-47-quote img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.resume-item img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
 
 .middle {
   -webkit-transition: .5s ease;

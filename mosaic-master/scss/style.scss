@@ -5,6 +5,7 @@ $font-primary: 'Poppins',Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
+$offwhite: #fffdf5;
 // $darken: #3a4348;
 
 $primary: #0033c7;
@@ -30,7 +31,7 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $white;
+	background: $offwhite;
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 300;

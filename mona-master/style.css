@@ -1044,6 +1044,8 @@ ul {
 
 .single-model-item {
   position: relative;
+  border-right: 1px solid rgb(145, 145, 145);
+  height: 30vh;
   z-index: 1; }
   .single-model-item .model-thumbnail {
     position: relative;
@@ -1141,19 +1143,49 @@ ul {
   .single-model-item .model-info {
     position: relative;
     z-index: 1;
-    margin-top: 20px; }
+    margin-top: 20px;
+  }
     .single-model-item .model-info h3 {
       -webkit-transition-duration: 500ms;
       -o-transition-duration: 500ms;
       transition-duration: 500ms;
+      margin-bottom: 15px;
+      font-size: 24px; 
+    text-align: center;
+  }
+    .single-model-item .model-info p {
+      text-align: center;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
       margin-bottom: 5px;
-      font-size: 24px; }
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 0 15px;
+    }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .single-model-item .model-info h3 {
-          font-size: 22px; } }
+          font-size: 22px; }
+          .single-model-item .model-info p {
+            
+            margin-left: 3px;
+            margin-right: 3px;
+            padding: 0 3px 0 3px;
+          }
+         }
       @media only screen and (max-width: 767px) {
         .single-model-item .model-info h3 {
-          font-size: 22px; } }
+          font-size: 22px; }
+          .single-model-item .model-info p {
+            text-align: center;
+            -webkit-transition-duration: 500ms;
+            -o-transition-duration: 500ms;
+            transition-duration: 500ms;
+            margin-bottom: 3px;
+            margin-left: 1.5px;
+            margin-right: 1.5px;
+            padding: 0 1.5px 0 1.5px;
+          } }
     .single-model-item .model-info h6 {
       margin-bottom: 0;
       letter-spacing: 2px;

@@ -8938,6 +8938,25 @@ textarea.form-control {
     display: block;
     text-align: right; }
 
+    .heading-section2 h2 {
+      font-size: 10vw;
+  font-weight: 900;
+  line-height: 1.0;
+  font-family: "Poppins", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+    }
+
+    .heading-section2 .right {
+      text-align: right;
+    }
+
+    .heading-section2 h2 span {
+      font-family: "Lora", serif;
+      font-weight: 400;
+      display: block;
+      text-align: center; }
+
 .heading-section.heading-section-white .subheading {
   color: rgba(255, 255, 255, 0.9); }
 

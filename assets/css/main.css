@@ -821,6 +821,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 80%;
+  height: 70vh;
+  /* background-color: yellow; */
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -956,6 +958,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .work--lockup{
+    height: 50vh;
+  }
   .work--lockup .slider {
     width: auto;
   }
